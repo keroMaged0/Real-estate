@@ -1,0 +1,166 @@
+{"level":"warn","message":"Email already in use","timestamp":"2025-12-13T16:05:32.755Z"}
+{"level":"warn","message":"Email already in use","timestamp":"2025-12-13T16:05:46.615Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Failed to send mail Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4310ada8477sm270171f8f.7 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4310ada8477sm270171f8f.7 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4310ada8477sm270171f8f.7 - gsmtp\n    at SMTPConnection._formatError (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1595:34)\n    at SMTPConnection.<anonymous> (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at TLSSocket.SMTPConnection._onSocketData (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:524:28)\n    at TLSSocket.emit (node:domain:489:12)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)","timestamp":"2025-12-16T17:44:50.611Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"UNEXPECTED ERROR Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4310ada8477sm270171f8f.7 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4310ada8477sm270171f8f.7 - gsmtp","responseCode":535,"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4310ada8477sm270171f8f.7 - gsmtp\n    at SMTPConnection._formatError (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1595:34)\n    at SMTPConnection.<anonymous> (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at TLSSocket.SMTPConnection._onSocketData (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:524:28)\n    at TLSSocket.emit (node:domain:489:12)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)","timestamp":"2025-12-16T17:44:50.613Z"}
+{"level":"warn","message":"Email already in use","timestamp":"2025-12-16T17:53:00.358Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T18:13:45.501Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T18:15:12.853Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T18:15:14.438Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T18:16:39.667Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T18:16:40.794Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T18:17:23.029Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T18:18:00.052Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T18:21:13.669Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T21:49:09.830Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T21:50:35.103Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T21:50:36.414Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T21:50:37.672Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T21:50:54.216Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T21:50:55.482Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T21:56:14.494Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T21:56:15.796Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T22:05:05.118Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T22:05:09.034Z"}
+{"level":"warn","message":"Invalid email or code","timestamp":"2025-12-16T22:05:54.377Z"}
+{"level":"warn","message":"Email is already verified","timestamp":"2025-12-16T22:07:19.243Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T22:08:23.072Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-16T22:09:12.970Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-17T16:27:28.483Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-17T16:27:42.179Z"}
+{"level":"warn","message":"Please verify your email to signin","timestamp":"2025-12-17T16:28:15.719Z"}
+{"level":"warn","message":"Email is already verified","timestamp":"2025-12-18T19:05:20.902Z"}
+{"level":"warn","message":"Email is already verified","timestamp":"2025-12-18T19:06:54.014Z"}
+{"level":"warn","message":"Email is already verified","timestamp":"2025-12-18T19:07:02.342Z"}
+{"level":"warn","message":"Email is already verified","timestamp":"2025-12-18T19:07:17.516Z"}
+{"level":"warn","message":"A valid verification code has already been sent. Please check your email.","timestamp":"2025-12-18T19:08:44.703Z"}
+{"level":"warn","message":"Invalid verification code","timestamp":"2025-12-18T19:09:00.369Z"}
+{"level":"warn","message":"Email already verified","timestamp":"2025-12-18T19:09:12.684Z"}
+{"level":"warn","message":"Refresh token mismatch","timestamp":"2025-12-18T19:16:51.276Z"}
+{"level":"warn","message":"Refresh token mismatch","timestamp":"2025-12-18T19:17:04.821Z"}
+{"level":"warn","message":"Refresh token mismatch","timestamp":"2025-12-18T19:17:05.793Z"}
+{"level":"warn","message":"Refresh token mismatch","timestamp":"2025-12-18T19:32:01.372Z"}
+{"level":"warn","message":"Refresh token mismatch","timestamp":"2025-12-18T20:04:00.343Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'refreshToken' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'refreshToken' of 'input' as it is undefined.\n    at Object.refreshTokenService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\refresh-token.service.ts:12:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\refresh-token.controller.ts:9:39\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-18T20:21:38.471Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:18:24.278Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:18:53.938Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:19:32.758Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:19:34.083Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:19:35.455Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:19:39.862Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:20:49.676Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:21:25.162Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:21:33.474Z"}
+{"level":"warn","message":"Reset code already sent. Please check your email.","timestamp":"2025-12-18T22:24:17.083Z"}
+{"level":"warn","message":"User not found","timestamp":"2025-12-18T22:24:49.635Z"}
+{"level":"warn","message":"Reset code already sent. Please check your email.","timestamp":"2025-12-18T22:25:03.732Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:26:43.750Z"}
+{"level":"warn","message":"Reset code already sent. Please check your email.","timestamp":"2025-12-18T22:27:10.530Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:27:33.608Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:27:35.014Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:28:06.081Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:28:07.308Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:28:08.260Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:28:24.393Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:28:56.334Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:29:17.581Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:29:18.751Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:29:20.030Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:29:37.122Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:29:42.960Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:30:24.608Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:30:25.470Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:31:20.714Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-18T22:31:22.329Z"}
+{"level":"warn","message":"This code cannot be used to reset password","timestamp":"2025-12-18T22:33:28.179Z"}
+{"level":"warn","message":"This code cannot be used to reset password","timestamp":"2025-12-18T22:34:29.237Z"}
+{"level":"warn","message":"This code cannot be used to reset password","timestamp":"2025-12-18T22:37:26.696Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:34:43.583Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:34:48.104Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:34:49.115Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:34:49.942Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:34:55.631Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:34:56.534Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:36:21.232Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:36:37.266Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:36:38.331Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:37:28.402Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:37:33.563Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:39:33.007Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:39:34.514Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:40:34.400Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:41:43.425Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:41:44.518Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:42:00.980Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:42:26.069Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:42:33.442Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:44:17.432Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:44:22.890Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:44:24.110Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:44:25.220Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:45:43.108Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:45:44.392Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T15:46:32.027Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:24:26.126Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:11.211Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:12.289Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:13.100Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:16.281Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:36.174Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:37.135Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:40.126Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:41.185Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:42.895Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:48.666Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:49.587Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:50.446Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:26:57.578Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:27:18.599Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:27:20.776Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:27:37.091Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:27:38.030Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:27:38.876Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:27:40.558Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:28:04.091Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:28:05.025Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:28:05.809Z"}
+{"level":"warn","message":"Route not found","timestamp":"2025-12-20T16:28:12.690Z"}
+{"level":"warn","message":"Route not found","timestamp":"2025-12-20T16:28:12.802Z"}
+{"level":"warn","message":"Route not found","timestamp":"2025-12-20T16:28:21.816Z"}
+{"level":"warn","message":"Route not found","timestamp":"2025-12-20T16:28:23.048Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:28:30.507Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:32:07.671Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:32:08.758Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:32:09.665Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'email' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'input' as it is undefined.\n    at Object.signinService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\signin.service.ts:11:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\signin.controller.ts:11:37\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-20T16:32:26.432Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'email' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'input' as it is undefined.\n    at Object.signinService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\signin.service.ts:11:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\signin.controller.ts:11:37\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-20T16:32:27.443Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:32:30.725Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'email' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'input' as it is undefined.\n    at Object.signinService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\signin.service.ts:11:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\signin.controller.ts:11:37\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-20T16:32:40.261Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'email' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'input' as it is undefined.\n    at Object.signinService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\signin.service.ts:11:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\signin.controller.ts:11:37\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-20T16:32:48.760Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'email' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'input' as it is undefined.\n    at Object.signinService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\signin.service.ts:11:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\signin.controller.ts:11:37\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-20T16:32:49.592Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'email' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'input' as it is undefined.\n    at Object.signinService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\signin.service.ts:11:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\signin.controller.ts:11:37\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-20T16:32:50.091Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'email' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'input' as it is undefined.\n    at Object.signinService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\signin.service.ts:11:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\signin.controller.ts:11:37\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-20T16:32:51.252Z"}
+{"level":"error","message":"UNEXPECTED ERROR Cannot destructure property 'email' of 'input' as it is undefined.","stack":"TypeError: Cannot destructure property 'email' of 'input' as it is undefined.\n    at Object.signinService (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\services\\entities\\auth\\signin.service.ts:11:11)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\controllers\\auth\\signin.controller.ts:11:37\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\src\\middlewares\\catch-async.ts:5:21\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Learning\\Backend_Node.js\\Projects\\Real-estate-listing\\node_modules\\router\\index.js:582:12)","timestamp":"2025-12-20T16:32:52.663Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:35:55.714Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:42:09.838Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:42:43.044Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:43:15.121Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:44:25.393Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:44:26.426Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:44:27.341Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:44:51.234Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:46:28.888Z"}
+{"level":"warn","message":"Email already verified","timestamp":"2025-12-20T16:46:36.047Z"}
+{"level":"warn","message":"Refresh token is required","timestamp":"2025-12-20T16:46:45.726Z"}
+{"level":"warn","message":"Invalid reset code","timestamp":"2025-12-20T16:48:05.652Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:49:06.306Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T16:49:07.317Z"}
+{"level":"warn","message":"This code cannot be used to reset password","timestamp":"2025-12-20T16:53:29.341Z"}
+{"level":"warn","message":"Invalid token","timestamp":"2025-12-20T16:55:23.883Z"}
+{"level":"warn","message":"Invalid token","timestamp":"2025-12-20T16:55:52.343Z"}
+{"level":"warn","message":"Invalid token","timestamp":"2025-12-20T16:55:53.222Z"}
+{"level":"warn","message":"Invalid token","timestamp":"2025-12-20T16:56:39.212Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T17:15:48.965Z"}
+{"level":"warn","message":"OldPassword password is incorrect","timestamp":"2025-12-20T17:16:13.382Z"}
+{"level":"warn","message":"New password must be different from current password","timestamp":"2025-12-20T17:16:35.042Z"}
+{"level":"warn","message":"OldPassword password is incorrect","timestamp":"2025-12-20T17:16:51.341Z"}
+{"level":"warn","message":"Invalid email or password","timestamp":"2025-12-20T19:46:34.715Z"}
