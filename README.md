@@ -28,6 +28,22 @@ src/
 └── types/
 ```
 
+## Features
+
+### Authentication
+
+- User signup with email verification
+- Signin with access & refresh tokens
+- Refresh token rotation
+- Secure logout
+- Forgot & reset password
+- Change password (authenticated)
+
+### User
+
+- Get user profile
+- Update user profile
+
 ## Running the Project
 
 ```
