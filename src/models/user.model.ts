@@ -16,6 +16,8 @@ export interface IUser extends Document {
   };
   isEmailVerified: boolean;
   refreshToken?: string;
+  createdAt: Date;
+  updatedAt: Date;
 }
 
 export const userSchema: Schema<IUser> = new Schema(
