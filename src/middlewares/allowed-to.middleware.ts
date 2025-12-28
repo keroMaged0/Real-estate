@@ -1,15 +1,16 @@
 import { NextFunction, Request, Response } from "express";
 
-export const allowedTo = (...roles: string[]) => {
+import { UserRole } from "../types";
+import { Errors } from "../errors";
+
+export const allowedTo = (...roles: UserRole[]) => {
   return (req: Request, res: Response, next: NextFunction) => {
     const user = req.loggedUser;
-    if (!user) {
-      return res.status(401).json({ success: false, message: "Unauthorized" });
-    }
+    if (!user || !user.role)
+      return next(new Errors.UnauthorizedError("Unauthorized"));
 
-    if (!roles.includes(user.role)) {
-      return res.status(403).json({ message: "Forbidden: Insufficient role" });
-    }
+    if (!roles.includes(user.role))
+      return next(new Errors.ForbiddenError("Forbidden"));
 
     next();
   };

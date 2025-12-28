@@ -1,12 +1,13 @@
 import { Request, Response, NextFunction } from "express";
-import jwt from "jsonwebtoken";
-import { env } from "../config/env";
+
 import { User } from "../models";
-import { Utils } from "../utils/index.";
+import { UserRole } from "../types";
+import { Utils } from "../utils";
+import { Errors } from "../errors";
 
 interface JwtPayload {
   id: string;
-  role: "user" | "admin";
+  role: UserRole;
 }
 
 export const authMiddleware = async (
@@ -17,22 +18,18 @@ export const authMiddleware = async (
   try {
     const authHeader = req.headers.authorization;
 
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return res.status(401).json({ message: "No token provided" });
-    }
+    if (!authHeader?.startsWith("Bearer "))
+      return next(new Errors.UnauthorizedError("Unauthorized"));
 
     const token = authHeader.split(" ")[1];
     const detected = Utils.Tokens.verifyAccessToken(token);
-    
+
     const user = await User.findById(detected.id).select("-password");
-    if (!user) {
-      return res.status(401).json({ message: "User not found" });
-    }
+    if (!user) return next(new Errors.UnauthorizedError("Unauthorized"));
 
     req.loggedUser = user;
     next();
-    
   } catch (error) {
-    return res.status(401).json({ message: "Invalid token" , error });
+    return next(new Errors.UnauthorizedError("Invalid token"));
   }
 };
