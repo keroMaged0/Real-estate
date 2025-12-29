@@ -1,4 +1,4 @@
-import { Utils } from "../../../utils/index.";
+import { Utils } from "../../../utils";
 import { Errors } from "../../../errors";
 import { User } from "../../../models";
 

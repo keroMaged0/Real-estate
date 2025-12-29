@@ -3,13 +3,13 @@ import crypto from "crypto";
 import { User } from "../../../models";
 import { ConflictError } from "../../../errors/conflict-error";
 import { mailTransporter } from "../../../utils/mail";
-import { VerifyReason } from "../../../types/verify-reason";
+import { VerifyReason, UserRole } from "../../../types";
 
 export interface SignupInput {
   name: string;
   email: string;
   password: string;
-  role?: "user" | "admin";
+  role?: UserRole;
 }
 
 // Service to handle user signup

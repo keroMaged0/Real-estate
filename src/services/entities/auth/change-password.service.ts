@@ -1,6 +1,6 @@
 import { Errors } from "../../../errors";
 import { User } from "../../../models";
-import { Utils } from "../../../utils/index.";
+import { Utils } from "../../../utils";
 
 export interface ChangePasswordInput {
   userId: string;

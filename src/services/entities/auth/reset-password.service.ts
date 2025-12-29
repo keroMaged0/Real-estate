@@ -1,7 +1,7 @@
 import { Errors } from "../../../errors";
 import { User } from "../../../models";
 import { VerifyReason } from "../../../types/verify-reason";
-import { Utils } from "../../../utils/index.";
+import { Utils } from "../../../utils";
 
 export interface ResetPasswordInput {
   email: string;

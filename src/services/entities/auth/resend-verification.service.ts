@@ -1,7 +1,7 @@
 import { User } from "../../../models";
 import { Errors } from "../../../errors";
 import { mailTransporter } from "../../../utils/mail";
-import { Utils } from "../../../utils/index.";
+import { Utils } from "../../../utils";
 
 export interface ResendVerificationInput {
   email: string;
