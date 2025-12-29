@@ -1,13 +1,13 @@
 import mongoose, { Schema, Document } from "mongoose";
 import { Bcrypt } from "../utils/bcrypt";
-import { VerifyReason } from "../types/verify-reason";
+import { VerifyReason, UserRole } from "../types";
 
 export interface IUser extends Document {
   name: string;
   email: string;
   password: string;
   phoneNumber: string;
-  role: "user" | "admin";
+  role: UserRole;
   comparePassword(candidatePassword: string): Promise<boolean>;
   emailVerificationCode?: {
     code: string;
@@ -26,7 +26,7 @@ export const userSchema: Schema<IUser> = new Schema(
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
     phoneNumber: { type: String },
-    role: { type: String, enum: ["user", "admin"], default: "user" },
+    role: { type: String, enum: Object.values(UserRole), default: UserRole.USER },
     isEmailVerified: { type: Boolean, default: false },
     emailVerificationCode: {
       code: { type: String, select: false },
